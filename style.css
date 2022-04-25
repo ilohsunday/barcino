@@ -1,0 +1,966 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #fff;
+    fnt-family: 'Akshar', sans-serif;
+    /*font-family: 'Barlow Condensed', sans-serif;*/
+}
+
+p{
+    font-family: 'Akshar', sans-serif;
+    
+}
+
+a{
+    font-family: 'Akshar', sans-serif;
+}
+
+.navbar-header{
+    height: 20px;
+}
+
+.height{
+    height: 100%;
+}
+
+.containers{
+    background: blue;
+}
+
+.barcino_logo{
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.navbar-brand-logo label{
+    font-weight: bold;
+    color: #fff;
+    font-size: large;
+}
+
+header .toggle-span span{
+    height: .7vh;
+    width: 7vw;
+    background: #fff;
+    display: none;
+    margin-bottom: 5px;
+}
+
+header .navbar-button span{
+    height: .7vh;
+    width: 7vw;
+    background: #fff;
+    display: none;
+    margin-bottom: 5px;
+}
+
+.socials{
+    display: none;
+}
+
+.academics ul{
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+
+.nav-link{
+    color: #fff;
+    font-weight: 700px;
+    margin-right: 5px;
+}
+
+.actives{
+    background: #fff;
+    color: blue;
+    border-radius: 3px;
+}
+
+.nav-link:hover {
+    background: #fff;
+    color: blue;
+    border-radius: 3px;
+  }
+
+  .actives:hover {
+    background: blue;
+    color: #fff;
+    border-radius: 3px;
+    border: #fff solid 1px;
+  }
+
+  .header-container{
+      width: 45%;
+  }
+
+  .header-inner{
+      display: flex;
+      margin: 10% 0 0% 0;
+      padding: 2px;
+  }
+
+  .header-inner h5{
+    font-size: 20px;
+}
+
+  .header-inner h2{
+      font-size: 30px;
+      font-weight: bolder;
+      letter-spacing: 10px;
+      margin-top: 10%;
+      line-height: 4rem;
+  }
+
+  .header-inner h2 span{
+      margin-bottom: 5%;
+      font-size: 5rem;
+      letter-spacing: 0px;
+      background: #fff;
+      color: blue;
+      padding: 0 3px;
+      border-radius: 5px;
+  }
+
+  .wallpaper{
+    width: 50vw;
+    height: 80vh;
+  }
+  
+  #moving-light{
+    height: 5px;
+    width: 100%;
+    display: block;
+    animation: moving-light 5s infinite reverse;
+  }
+
+  @keyframes moving-light {
+      0%{
+          background: green;
+      }
+      25%{
+          background: red;
+      }
+      75%{
+          background: blue;
+      }
+      100%{
+          background: yellow;
+      }
+  }
+  
+  .barcino_heading span{
+      font-size: 3rem;
+      text-align: center;
+      color: blue;
+      font-weight: bolder;
+  }
+
+  .barcino_welcome{
+      font-size: 3rem;
+      font-weight: 600;
+      text-align: center;
+      animation: barcino_welcome 4s infinite;
+  }
+
+  @keyframes barcino_welcome {
+      50%{
+          transform: translate(1%);
+          color: #00fe01;
+      }
+  }
+
+  .barcino_welcome span{
+      color: blue;
+      font-weight: bolder;
+  }
+
+  .barcino_welcome_2{
+      font-size: 1.6rem;
+      font-weight: 500;
+  }
+
+  #moving-light2{
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: blue;
+  }
+
+  .successful span{
+    color: blue;
+    font-weight: bold;
+}
+
+.branch{
+    background: url('header_background1.jpeg') no-repeat;
+    background-size: cover;
+    padding: 5% 0 10% 0;
+}
+
+
+  .barcino-service{
+    border: #fff 1px solid;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #fff;
+  }
+
+  .barcino-service img{
+      height: 20vh;
+  }
+
+  .barcino-service p{
+      opacity: 0.8;
+      font-famly: 'Poppins', sans-serif;
+  }
+
+  .branch .middle{
+      background: #fff;
+      color: blue;
+      border: blue 1px solid;
+  }
+
+  .IT-service span{
+    font-size: 2.6rem;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: blue 1px 1px 3px, blue 1px 1px 3px, blue 1px 1px 3px,blue 1px 1px 3px;
+  }
+
+  .IT-service p span{
+      color: blue;
+      font-size: 1.3rem;
+      text-shadow: none;
+      
+  }
+
+  .testimonies{
+    background: url('testimonial2.jpeg') no-repeat;
+    background-size: cover;
+    padding: 5% 0 10% 0;
+  }
+
+  .testimonies img{
+      background: #fff;
+      border-radius: 50%;
+  }
+
+  .testimonies h3{
+      color: blue;
+      font-size: 2.5rem;
+  }
+
+  .testimonies h3 span{
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+  .testimonies .middle{
+    background: #fff;
+    color: blue;
+  }
+  
+  .testimonies .middle p{
+    color: #000000;
+  }
+
+  /* footer */
+
+  .footer{
+    background: #262626;
+    color: #fff;
+    padding: 50px 50px 5px 50px;
+}
+
+#footer-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#footer-heading div h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+#footer-first{
+    width: 30%;
+}
+
+#footer-first p{
+    margin-bottom: 20px;
+}
+
+#footer-first input{
+    padding: 10px 0px 10px 5px;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+}
+
+#footer-first button{
+    padding: 10px 8px 10px 8px;
+    font-size: 14px;
+    background: blue;
+    color: #ffffff;
+    border: none;
+}
+
+#footer-second{
+    padding: 0px 120px 0px 120px;
+    align-items: center;
+}
+
+#navigation{
+    display: flex;
+    width: 110%;
+}
+
+#navigation ul{
+    margin-left: 20px;
+}
+
+#navigation ul li{
+    list-style: none;
+    margin-bottom: 6px;
+}
+
+#navigation ul li a{
+    color: #fff;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.main-footer #SiteMap{
+    margin: 0px 50px 0px 50px;
+    border: blue solid 2px;
+    height: 30px;
+    width: 80px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+/* About */
+.about-wallpaper{
+    background: url("about.jpeg") no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    height: 90vh;
+    padding: 5% 0;
+    z-index: -2;
+    position: relative;
+}
+.about-wallpaper-image{
+    margin-top: -50%;
+    margin-bottom: 20%;
+    position: relative;
+    z-index: 2;
+}
+
+.barcino_about_header{
+    font-size: 2.5rem;
+    color: blue;
+    font-weight: bolder;
+}
+
+.barcino_about_header .span1{
+    color: #000;
+    font-size: 2.0rem;
+    font-weight: 800;
+    border-bottom: blue dotted .15rem;
+}
+
+.barcino_about_header .span2{
+    border-top: #000 dotted .15rem;
+}
+
+.successful .img{
+    background: #262626;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    border-radius: 2%;
+}
+
+/* skills offered */
+
+.skill-offered{
+    background: url("skill-offered1.jpeg") no-repeat;
+    background-size: cover;
+    padding: 5% 5px 5% 5px;
+}
+
+.skill-offered-header{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.ul-background-blue{
+    background: blue;
+    width: 40vw;
+    border-radius: 25%;
+}
+
+.ul-background-blue a{
+    color: #fff;
+}
+
+.ul-background-white{
+    background: #fff;
+    width: 40vw;
+}
+
+.px-9 {
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+.skill-section ul{
+    padding-left: 0;
+}
+
+.skill-section li a{
+    text-decoration: none;
+}
+
+.skill-section ul .li-blue{
+    background: #0d6efd;
+}
+
+.skill-section ul .li-blue a{
+    color: #fff;
+}
+
+.skill-section ul .li-blue:hover{
+    background: #fff;
+}
+
+.skill-section ul .li-blue:hover>a{
+    color: #0d6efd;
+}
+
+.skill-section ul .li-white{
+    background: white;
+}
+
+.skill-section ul .li-white:hover{
+  background: #0d6efd;
+}
+
+.skill-section ul .li-white:hover>a{
+    color: #fff;
+}
+
+/* service */
+
+.service-active{
+    background: blue;
+    color: #fff;
+}
+
+.service-active:hover{
+    border: #fff 1px solid;
+    background: #0d6efd;
+    color: #fff;
+}
+
+/* jamb update */
+
+.jamb-update-img {
+    display: flex;
+    justify-content: center;
+}
+
+.barcino_education_header{
+    font-size: 2.2em;
+    color: blue;
+    font-weight: bolder;
+}
+
+/* contact */
+
+.contact-input>input {
+    border: none;
+    background: rgba(0, 0, 255, 0.315);
+    box-shadow: rgb(247, 242, 242) 1px 1px 3px, blue 1px 1px 3px, blue 1px 1px 3px,blue 1px 1px 3px;
+}
+
+.contact-input>input:focus{
+    outline: blue 2px solid;
+    color: blue;
+    font-weight: 800;
+}
+
+.textarea>textarea:focus{
+    outline: none;
+}
+
+.contact-btn{
+    background: blue;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.contact-btn:hover{
+    border: blue 2px solid;
+    background: white;
+    color: blue;
+}
+
+.contact-btn:active{
+    color: #fff;
+    background: #0d6efd;
+    border: #fff 2px solid;
+}
+  
+
+  @media (max-width: 991px) {
+      body{
+          font-size: 1.1rem;
+      }
+      .navbar{
+         padding: 0 0 0.1rem 0;
+      }
+      
+      .barcino_logo{
+          height:2.8rem;
+    }
+    
+      /* toggle span */
+    header .toggle-span span{
+        display: block;
+    }
+
+    .toggle-span{
+        float: right;
+        margin-right: 5%;
+        border: 0.15rem solid #fff;
+        padding: 2% 2% 2% 2%;
+        border-radius: 10%;
+        margin-bottom: 2%;
+    }
+
+    header .navbar-button span{
+        display: block;
+    }
+    
+    /*.socials{
+        display: block;
+    }*/
+
+    .navbar-button{
+        float: right;
+        margin-right: 5%;
+        border: 0.15rem solid #fff;
+        padding: 2% 2% 2% 2%;
+        border-radius: 10%;
+        margin-bottom: 2%;
+    }
+
+    .open .toggle-span{
+        padding: 4% 2% 4% 2%;
+    }
+
+     .right{
+        animation: 0.5s rights ease-in-out forwards;
+    }
+    
+      @keyframes rights{
+        0%{
+            top: 45;
+            transform: rotate(45deg);
+        }
+        50%{
+            top: 45;
+            transform: rotate(0deg);
+        }
+        
+        100%{
+            top: 20;
+            transform: rotate(0deg);
+        }
+    } 
+    
+     .open .right{
+        position: absolute;
+        animation: 0.5s right ease-in forwards;
+    }
+    
+    @keyframes right{
+        0%{
+            top: 20;
+            transform: rotate(0deg);
+        }
+        50%{
+            top: 45;
+            transform: rotate(0deg);
+        }
+        
+        100%{
+            top: 45;
+            transform: rotate(45deg);
+        }
+    } 
+    
+    .center{
+        animation: 0.5s centered ease-in-out forwards;
+    }
+    
+       @keyframes centered{
+        0%{
+            top: 100;
+            transform: rotateY(90deg);
+        }
+        50%{
+            top: 100;
+            transform: rotate(0deg);
+        }
+        
+        100%{
+            top: 100;
+            transform: rotateY(0deg);
+        }
+    }
+    
+    .open .center{
+        animation: centers ease-in-out forwards;
+    }
+    
+     @keyframes centers{
+        0%{
+            transform: rotateY(0deg);
+        }
+        50%{
+            transform: rotate(0deg);
+        }
+        
+        100%{
+            transform: rotateY(90deg);
+        }
+    } 
+    
+    .left{
+        animation: 0.5s lefts ease-in-out forwards;
+    }
+    
+    @keyframes lefts{
+        0%{
+            transform: rotate(-45deg);
+            margin-top: -35%;
+        }
+        50%{
+            transform: rotate(0deg);
+        }
+        
+        100%{
+            transform: rotate(0deg);
+        }
+    }
+    
+    .open .left{
+        animation: 0.5s left ease-in-out forwards;
+    }
+    
+     @keyframes left{
+        0%{
+            transform: rotate(0deg);
+            margin-top: 0%;
+        }
+        50%{
+            top: 45;
+            transform: rotate(0deg);
+        }
+        
+        100%{
+            transform: rotate(-45deg);
+            margin-top: -20%;
+        }
+    }
+
+    .updated-menu{
+        float: left;
+        margin-right: 3%;
+        position: relative;
+        z-index: 10;
+    }
+
+    /* Slide Control */
+    .slide-control{
+        visibility: hidden;
+    }
+
+    .header-container{
+        width: 100%;
+    }
+
+    .header-inner h2{
+        letter-spacing: 0;
+        margin-top: 6%;
+        line-height: 3rem; 
+    }
+    
+    .header-inner h2 span{
+      margin-bottom: 0;
+  }
+
+    .header-inner{
+        flex-direction: column;
+    }
+
+    .header-inner h2 span{
+        font-size: 3.4rem;
+        background: #fff;
+        color: blue;
+        padding: 0 6px;
+     }
+     .header-inner h2 .header-inner-span2{
+        font-size: 3.0rem;
+        background: none;
+        color: #fff;
+        padding: 0 0;
+     }
+     
+  .wallpaper{
+    width: 90vw;
+    height: 40vh;
+    margin: 0 auto;
+  }
+  
+  .barcino_heading span{
+      font-size: 1.5rem;
+  }
+  
+  .barcino_welcome{
+      font-size: 1.5rem;
+      font-weight: 600;
+  }
+
+     /* footer */
+    
+     #footer-heading{
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+        }
+        
+        #footer-headig div{
+        padding: 0px 0px 0x 0px;
+        background: green;
+        }
+        
+        #footer-heading div h3{
+            margin-bottom: 20px;
+        }
+        
+        #footer-first{
+            width: 100%;
+            padding: 0px 10px 0px 10px;
+        }
+        
+        #footer-first p{
+            margin-bottom: 20px;
+        }
+        
+        #footer-first input{
+            width: 60%;
+            border: none;
+            outline: none;
+            margin-right: 5px;
+        }
+        
+        #footer-first button{
+            background: blue;
+            color: #ffffff;
+            outline: blue solid;
+            border: none;
+        }
+        
+        #footer-second{
+            width: 100%;
+            padding: 0px 10px 0px 50px;
+        }
+        
+        #footer-third{
+            width: 100%;
+            align-items: center;
+        }
+        
+        #navigation{
+            width: 100%;
+        }
+        
+        #navigation ul{
+            margin-left: 0px;
+        }
+        
+        #navigation ul li{
+            list-style: none;
+            margin-bottom: 6px;
+        }
+        
+        #navigation ul li a{
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        footer{
+            margin-top: 40px;
+            text-align: center;
+            padding: 0px 5px 0px 5px;
+        }
+        
+        .main-footer{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .main-footer #SiteMap{
+            border: blue solid 2px;
+            padding: 5px 0 50px 0px;
+            cursor: pointer;
+        }
+
+        /* about barcino */
+
+        .barcino_about_header{
+            font-size: 1.8rem;
+        }
+        
+        .barcino_about_header .span1{
+            border: none;
+            font-size: 1.5rem;
+
+        }
+        
+        .barcino_about_header .span2{
+            border: none;
+        }
+
+        .about-wallpaper{
+            display: none;
+        }
+
+        .about-wallpaper-image{
+            margin-top: 0;
+            margin-bottom: 0;
+            position: relative;
+            z-index: 2;
+            overflow: hidden;
+        }
+
+        .about-wallpaper-image::after {
+            display: block;
+            clear: both;
+            content: "";
+          }
+          
+          
+        .about-wallpaper-image img{
+            width: 100vw;
+            height: 50vh;
+        }
+  }
+
+  @media screen and (max-width: 768px){
+      .height{
+          height: 200px;
+      }
+      
+      .socials{
+          display: block;
+      }
+    @keyframes left{
+        100%{
+            
+            transform: rotate(-45deg);
+            margin-top: -26%;
+        }
+    }
+  }
+
+  @media  screen and (max-width: 575px) {
+      .skill-section ul{
+          margin-right: 10%;
+          margin-left: 10%;
+      }
+      .skill-section li{
+        border-radius: 10px;
+      }
+      .skill-section ul .li-blue{
+        background: #fff;
+      }
+
+      .skill-section ul .li-blue a{
+        color: #0d6efd;
+      }
+      .skill-section ul .li-blue:hover{
+        background: #0d6efd;
+      }
+
+      .skill-section ul .li-blue:hover>a{
+        color: #fff;
+      }
+  }
+
+  @media screen and (max-width: 425px){
+    @keyframes left{
+        100%{
+            transform: rotate(-45deg);
+            margin-top: -30.25%;
+        }
+    }
+  }
+
+  @media screen and (max-width: 375px){
+    @keyframes left{
+        100%{
+            transform: rotate(-45deg);
+            margin-top: -35%;
+        }
+    }
+  }
+
+  @media screen and (max-width: 320px){
+    @keyframes left{
+        100%{
+            transform: rotate(-45deg);
+            margin-top: -40%;
+        }
+    }
+  }
+
+  /* @media  screen and (max-width: 575px){
+      .barcino_welcome{
+    font-size: 1.9rem;
+    }
+
+    .barcino_welcome_2{
+    font-size: 1.2rem;
+    padding:0 10% ;
+    }
+  } */
+
+  
